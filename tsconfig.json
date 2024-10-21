@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "nodenext", // Add this line
+    "target": "ES6",
+    "module": "NodeNext", // Keep this if you're using ES Modules
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true // This helps ignore some type errors from node_modules
+  }
+}
